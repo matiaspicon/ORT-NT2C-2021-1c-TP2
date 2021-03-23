@@ -11,6 +11,23 @@
             }
             )
 
+
+            function lenghtNombres(nombres){
+                let retorno = []
+                nombres.forEach(function(nombre) {
+                    retorno.push(
+                        {"nombre" : nombre,
+                        "longitud" : nombre.length
+                        })
+                }
+                )
+                return retorno
+
+            }
+
+            console.log(lenghtNombres(nombres))
+
+
         </script>
     </body>
 </html>
